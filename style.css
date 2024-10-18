@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+h2{
+  font-family: 'Courier New', Courier, monospace;
+}
+
 
 .cabin {
   font-family: "Cabin", sans-serif;
@@ -15,19 +19,40 @@
 }
 
 body {
-    
+ 
     background-color: #ffe9bc;
    
  }
 
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); 
+}
+
+
  #head{
   height: 100vh;
   width: 100vh;
+  grid-row: 3;
+  grid-column: 1/12;
+ }
+
+ .info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  padding: 0 3vw;
+  font-size: 2vw;
  }
 
 .logo{
-  height: 100vh;
-  width: 100vh;
+  position:absolute;
+  top:72%;
+  height: 100%;
+  width: 100%;
  }
 
  * {
@@ -36,6 +61,7 @@ body {
   box-sizing: border-box;
 }
 .slider-container{
+  grid-row: 5;
   width: 100%;
   height: 100vh;
   /* background-image: url('images/silkscreen.svg'); */
@@ -91,7 +117,7 @@ h1{
   bottom: 43px;
   left: 43px;
 }
-.details h2{
+.details h2{ 
   font-family: "Cabin", sans-serif;
   font-size: 26px;
   font-weight: 700;
@@ -125,3 +151,15 @@ h1{
 .slider-img.active .details p, .slider-img.active .details h2{
   display: block;
 }
+
+/* BEGIN STEP ONE */
+
+.big-img{
+  width: 500px;
+  height: 500px;
+  background-color: red;
+}
+
+
+/* END STEP ONE */
+
