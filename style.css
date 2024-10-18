@@ -27,7 +27,7 @@ justify-content: space-around;
 
 body {
  
-    background-color: #ffe9bc;
+    background-color: #ffffff;
    
  }
 
@@ -171,7 +171,7 @@ h1{
 .big-img> img{
   width: 500px;
   height: 500px;
-  object-fit: fill;
+  object-fit:cover;
 
 }
 
@@ -206,6 +206,7 @@ h1{
 .gallery > img{
   width: 150px;
   height: 150px;
+  object-fit:cover;
 }
 
 .instructions{
