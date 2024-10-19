@@ -76,6 +76,8 @@ body {
   padding: 0px;
   box-sizing: border-box;
 }
+
+
 .slider-container{
   grid-row: 5;
   width: 100%;
@@ -169,7 +171,19 @@ h1{
 }
 
 /* BEGIN FAQ */
+.mat{
+  grid-column: 4/10;
+  margin-top: 40%;
+  background-color: white; 
+}
 
+.mat > h2{
+  font-size: 75px;
+  text-align: center;
+}
+/* END FAQ*/
+
+/* BEGIN FAQ */
 .faq{
   grid-column: 4/10;
   margin-top: 40%;
@@ -180,8 +194,9 @@ h1{
   font-size: 75px;
   text-align: center;
 }
-
 /* END FAQ*/
+
+
 /* BEGIN STEP ONE */
 
 .big-img{
