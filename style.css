@@ -27,6 +27,13 @@ display: flex;
 justify-content: space-around;
 }
 
+nav > h2{
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8px;
+}
+
 .cabin {
   font-family: "Cabin", sans-serif;
   font-optical-sizing: auto;
