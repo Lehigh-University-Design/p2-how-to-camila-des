@@ -38,9 +38,7 @@ justify-content: space-around;
 }
 
 body {
- 
     background-color: #ffffff;
-   
  }
 
 .grid-container{
@@ -56,15 +54,15 @@ body {
   grid-column: 1/12;
  }
 
- .info{
+ .intro{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   position: absolute;
-  top: 25%;
+  top: 15%;
   width: 100%;
   padding: 0 3vw;
-  font-size: 2vw;
+  font-size: 3vw;
  }
 
 .logo{
@@ -170,12 +168,13 @@ h1{
 .slider-img.active .details p, .slider-img.active .details h2{
   display: block;
 }
+
 /* BEGIN FAQ */
 
 .faq{
   grid-column: 4/10;
   margin-top: 40%;
-  background-color: chocolate;
+  background-color: white; 
 }
 
 .faq > h2{
