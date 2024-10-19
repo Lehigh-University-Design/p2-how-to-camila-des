@@ -77,8 +77,8 @@ text-decoration: none;
 color: black;
  }
 
- a :hover{
-  color: pink;
+ .linkHover:hover{
+  color: rgb(154, 154, 154);
  }
 
 .logo{
