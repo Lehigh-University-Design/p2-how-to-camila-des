@@ -27,13 +27,15 @@ display: flex;
 justify-content: space-around;
 }
 
-nav > h2{
+nav > h2 > a{
   font-family: "Jersey 25", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 40px;
+  font-size: 45px;
   color: #ffffff;
+  justify-content: space-between;
 }
+
 /* END NAVIGATION BAR*/
 
 
@@ -235,16 +237,21 @@ h1{
  
 }
 .big-img> img{
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   object-fit:cover;
 
 }
 
 .num{
-  font-size: 4vw;
+  margin-top: 3vw;
   grid-row: 1;
   grid-column: 1/2;
+}
+
+.num > p {
+  font-family: "Jersey 25", sans-serif;
+  font-size: 10vw;
 }
 
 .steps{
