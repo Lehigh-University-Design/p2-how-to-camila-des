@@ -201,7 +201,16 @@ h1{
   font-size: 75px;
   text-align: center;
 }
+
+.mat> ul{
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+
+}
+
 /* END MATERIALS*/
+
+
 
 /* BEGIN FAQ */
 .faq{
