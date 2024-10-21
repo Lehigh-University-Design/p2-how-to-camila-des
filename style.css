@@ -18,6 +18,18 @@ h2{
       "wdth" 100;
     font-size: 22px;
   }
+
+.home{
+  font-family: "Jersey 25", sans-serif;
+  font-size: 50px;
+  position: right;
+  grid-column: 12/12;
+}
+.home a:hover{
+  text-decoration: none;
+  color:rgb(154, 154, 154);
+}
+
 /* BEGIN NAVIGATION BAR*/
 nav{
 position:fixed;
