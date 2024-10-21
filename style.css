@@ -54,7 +54,7 @@ nav > h2{
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
-  ccolor: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 .navbar {
   overflow: hidden;
@@ -377,15 +377,16 @@ h1{
 /* END STEP ONE */
 
 /*BEGIN STEP TWO*/
+
 .instructions > ol{
   font-family: "Cabin", sans-serif;
+  font-size: 25px;
   display: flex;
   flex-direction: column;
   grid-row: 3;
   grid-column: 1/5;
   padding: 2vw;
 }
-
 
 
 /*END STEP TWO*/
