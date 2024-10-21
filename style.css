@@ -40,6 +40,18 @@ h3{
   color:rgb(154, 154, 154);
 }
 
+.home2 > a{
+  font-family: "Jersey 25", sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+  grid-column: 2/12;
+  padding-top: 15px;
+}
+.home2 a:hover{
+  text-decoration: none;
+  color:rgb(154, 154, 154);
+}
+
 /* BEGIN NAVIGATION BAR*/
 nav{
 position:fixed;
@@ -92,7 +104,7 @@ nav > h2{
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
+/* Add a background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: rgb(128, 128, 128);
 }
