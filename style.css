@@ -353,6 +353,13 @@ h1{
   font-size: 10vw;
 }
 
+.des{
+  font-family: "Jersey 25", sans-serif;
+  font-size: 3vw;
+  margin-top: 10vw;
+  padding-left: 2vw;
+}
+
 /*RIGHT SIDE GRID*/
 .steps{
   display: grid;
