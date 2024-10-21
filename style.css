@@ -9,21 +9,31 @@ h2{
     font-weight: 400;
     font-style: normal;
   }
-  p{
+
+p{
     font-family: "Cabin", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-    font-size: 22px;
+    font-size: 25px;
   }
+
+h3{
+  font-family: "Cabin", sans-serif;
+  color: red;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
 
 .home{
   font-family: "Jersey 25", sans-serif;
   font-size: 50px;
   position: right;
   grid-column: 12/12;
+  padding-top: 15px;
 }
 .home a:hover{
   text-decoration: none;
@@ -278,17 +288,15 @@ h1{
 }
 
 .mat > h2{
-  font-size: 75px;
+  font-size: 80px;
   text-align: center;
 }
 
 .mat> ul{
   font-family: "Cabin", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
-
 /* END MATERIALS*/
-
 
 
 /* BEGIN FAQ */
@@ -309,10 +317,9 @@ h1{
 .big-img{
   grid-column: 2/7;
   grid-row: 1/2;
-  padding-top: 70px;
- 
- 
+  padding-top: 200px;
 }
+
 .big-img> img{
   width: 600px;
   height: 600px;
@@ -331,11 +338,12 @@ h1{
   font-size: 10vw;
 }
 
+/*RIGHT SIDE GRID*/
 .steps{
   display: grid;
   grid-column: 7/13;
   grid-row: 1/2;
-  background-color: rgb(184, 184, 184);
+  background-color: rgb(255, 255, 255);
   grid-template-columns: repeat(4, 1fr); 
   grid-template-rows: repeat(4, 1fr); 
 }
@@ -366,6 +374,18 @@ h1{
   grid-column: 1/5;
   padding: 2vw;
 }
-
 /* END STEP ONE */
 
+/*BEGIN STEP TWO*/
+.instructions > ol{
+  font-family: "Cabin", sans-serif;
+  display: flex;
+  flex-direction: column;
+  grid-row: 3;
+  grid-column: 1/5;
+  padding: 2vw;
+}
+
+
+
+/*END STEP TWO*/
